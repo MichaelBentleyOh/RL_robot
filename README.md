@@ -384,4 +384,3 @@ Critic Network가 매 업데이트마다 학습되는 반면, Actor Network는 �
 
 ## 9. 시행착오
 ---
-1. 
