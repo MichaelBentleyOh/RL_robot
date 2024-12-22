@@ -498,3 +498,7 @@ Critic Network가 매 업데이트마다 학습되는 반면, Actor Network는 �
 
 ### 2. depth 정규화
 큐브까지의 거리를 계산하기 위해 `arm_camera()`의 `depth_img`에서 depth 값을 추출하였으나, 해당 값이 0~255 로 정규화된 값임을 확인하였습니다. 이를 해결하기 위해 설정된 `far` 값을 활용하여 `depth = depth_value / 255.0 * far`로 변환하여 실제 depth값을 추출하였고, 문제를 해결하였습니다.
+
+---
+## 10. 결과
+(추가 예정)
