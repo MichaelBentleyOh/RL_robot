@@ -399,6 +399,19 @@ Critic Network가 매 업데이트마다 학습되는 반면, Actor Network는 �
 -NumPy: 2.2.0
 -YOLO: V5
 
+conda 환경 구성
+
+```
+conda create -n DRL_study python=3.8
+```
+
+conda 환경 활성화
+
+```
+conda activate DRL_study
+```
+
+
 설치 코드
 ```
 pip install -r requirements.txt
