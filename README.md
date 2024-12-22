@@ -398,7 +398,8 @@ Critic Network가 매 업데이트마다 학습되는 반면, Actor Network는 �
 -Gymnasium: 0.28.1
 -NumPy: 2.2.0
 -YOLO: V5
-
+설치 코드
+pip install -r requirements.txt
 ---
 ## 8. ref code 설명
 `ref code`는 **PyBullet 기반의 로봇 강화학습 환경**을 구축하여 에이전트가 로봇 조작 작업을 학습할 수 있도록 설계되었습니다. 주요 구성 요소는 환경 초기화, 로봇 제어, 객체 생성 및 관찰 데이터 처리입니다. 아래는 코드의 주요 클래스와 메서드를 설명합니다.
