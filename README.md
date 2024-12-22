@@ -288,8 +288,16 @@ Critic Network가 매 업데이트마다 학습되는 반면, Actor Network는 �
 - 모든 작업이 완료된 후, 로봇과 객체의 상태는 초기화되거나 다음 작업 흐름을 위해 새로운 명령을 대기.
 
 ---
+#### 6. 환경 설정 (Requirements)**
+-Python==3.8
+-PyBullet==Newest
+-OpenCV (cv2)==Newest
+-Stable-Baselines3==Newest, 단 line3 여야한다.
+-Gymnasium==Newest
+-NumPy==Newest
+-YOLO==V5
 
-
+---
 ## 8. ref code 설명
 `ref code`는 **PyBullet 기반의 로봇 강화학습 환경**을 구축하여 에이전트가 로봇 조작 작업을 학습할 수 있도록 설계되었습니다. 주요 구성 요소는 환경 초기화, 로봇 제어, 객체 생성 및 관찰 데이터 처리입니다. 아래는 코드의 주요 클래스와 메서드를 설명합니다.
 
