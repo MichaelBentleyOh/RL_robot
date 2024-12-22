@@ -390,13 +390,13 @@ Critic Network가 매 업데이트마다 학습되는 반면, Actor Network는 �
 
 ---
 #### 6. 환경 설정 (Requirements)**
--Python==3.8
--PyBullet==Newest
--OpenCV (cv2)==Newest
--Stable-Baselines3==Newest, 단 line3 여야한다.
--Gymnasium==Newest
--NumPy==Newest
--YOLO==V5
+-Python: 3.8
+-PyBullet: 3.2.5
+-OpenCV (cv2): 4.9.0
+-Stable-Baselines3: 2.4.0 (Python 3.8 지원의 마지막 버전)
+-Gymnasium: 0.28.1
+-NumPy: 2.2.0
+-YOLO: V5
 
 ---
 ## 8. ref code 설명
