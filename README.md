@@ -1,16 +1,3 @@
-개요
----
-1. 스터디 목적(오민식)
-2. 강화학습 기본 이론(이연수)
-3. DRL 설명 => DQN(최원강), TD3(오민식)
-4.
-5. 5. project 주제 설명=> Pick and Place(최원강)
-6. requiremnets(최원강)
-7. ref code process architecture(옥윤정)
-8. ref code 설명(이연수)
-9. 시행착오들(image2action, camera2world coordinate, etc...)(옥윤정)
-10. 최종 결과(오민식)
----
 스터디 목적
 ---
 스터디 기간 : 24.03.15 ~ 24.12.23
